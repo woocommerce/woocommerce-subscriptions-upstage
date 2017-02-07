@@ -20,7 +20,7 @@ This plugin can be used to trigger automatic payments for specific subscriptions
 ### Example Usage
 
 ```
-define( 'WCS_UPSTAGED_SUBSCRIPTION_IDS', array( 123, 5813, 2134 ) );
+define( 'WCS_UPSTAGED_SUBSCRIPTION_IDS', json_encode( array( 123, 5813, 2134 ) ) );
 ```
 
 ### Suggested Usage
