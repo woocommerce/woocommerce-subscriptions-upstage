@@ -29,7 +29,7 @@
 
 function wcs_upstage( $subscription_id ) {
 
-	if ( ! WC_Subscriptions::is_duplicate_site() || ! defined( 'WCS_UPSTAGED_SUBSCRIPTION_IDS' ) || ! is_array( WCS_UPSTAGED_SUBSCRIPTION_IDS ) || ! in_array( $subscription_id, WCS_UPSTAGED_SUBSCRIPTION_IDS ) ) {
+	if ( ! WC_Subscriptions::is_duplicate_site() || ! defined( 'WCS_UPSTAGED_SUBSCRIPTION_IDS' ) || ! is_array( $subscription_ids = json_decode( WCS_UPSTAGED_SUBSCRIPTION_IDS ) ) || ! in_array( $subscription_id, $subscription_ids ) ) {
 		return;
 	}
 
