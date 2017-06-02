@@ -6,6 +6,7 @@
  * Author: Prospress Inc.
  * Author URI: http://prospress.com/
  * Version: 1.0
+ * License: GPLv3
  *
  * Copyright 2016 Prospress, Inc.  (email : freedoms@prospress.com)
  *
