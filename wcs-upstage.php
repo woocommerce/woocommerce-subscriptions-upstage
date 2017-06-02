@@ -8,7 +8,10 @@
  * Version: 1.0
  * License: GPLv3
  *
- * Copyright 2016 Prospress, Inc.  (email : freedoms@prospress.com)
+ * GitHub Plugin URI: Prospress/woocommerce-subscriptions-upstage
+ * GitHub Branch: master
+ *
+ * Copyright 2017 Prospress, Inc.  (email : freedoms@prospress.com)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
